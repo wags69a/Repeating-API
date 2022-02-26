@@ -17,8 +17,8 @@ There is no stop time for the script. Due to customer time, I have the script wo
 Contact the owner if he is not too busy.
 
 ## Credits and references 
-The Cisco requests library.
-The book - Automate the boring stuff with python. 
+The Cisco requests library. <br />
+The book - Automate the boring stuff with python. <br />
 Stack Overflow.
 
 ## Best Practice 
