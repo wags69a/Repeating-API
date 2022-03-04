@@ -2,16 +2,23 @@
 This script acts as a heartbeat to an API so it doesn't fall asleep.
 
 ## Installation 
-I used python on my PC which had access to the customer's environment. You will have to adjust to your customer.
+I used python on my Windows PC which had access to a lab.
+
+Pip Istall these libraries: <br />
+from datetime import datetime <br />
+import os <br />
+import requests <br />
+import time <br />
+import schedule <br />
 
 ## Usage 
-This code was originally used in a customer environment. It will change with each user. The URL should match what the customer gives you to test. All customer API keys and token were blanked out. The API that you ping can be anything. The script will call the API over and over until you stop the script. The output is to the python terminal.
+This code was originally used in a customer environment. It will change with each user. The URL should match what the customer gives you to test. Your heading will be different from this script and will need updated too. The API that you ping can be anything. The script will call the API over and over until you stop the script. The output is to the python terminal. I added colors to the API response code: green for good(200), red for bad and yellow, meaning that response needs to be added to the script. Contact the owner to update.
 
 ## DevNet 
-Sandbox All sandboxes with APIs can use this script.
+Sandbox - All sandboxes with APIs can use this script.
 
 ## Known issues 
-There is no stop time for the script. Due to customer time, I have the script working and will add a stop time in version 2.
+There is no stop time for the script. Due to customer time, I have the script working and will add a stop time in a later version. You have to manually stop this script from running.
 
 ## Getting help 
 Contact the owner if he is not too busy.
